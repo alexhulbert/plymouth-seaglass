@@ -1,0 +1,65 @@
+[Plymouth Theme]
+Name=SeaGlass
+Description=SeaGlass Plymouth boot splash theme
+ModuleName=two-step
+
+[two-step]
+ImageDir=/usr/share/plymouth/themes/seaglass
+Font=Adwaita Sans 12
+TitleFont=Adwaita Sans Light 30
+MonospaceFont=Adwaita Mono 12
+BackgroundStartColor=0x000000
+BackgroundEndColor=0x000000
+VerticalAlignment=.7
+DialogVerticalAlignment=.7
+DialogClearsFirmwareBackground=false
+WatermarkHorizontalAlignment=.5
+WatermarkVerticalAlignment=.96
+MessageBelowAnimation=true
+ProgressBarBackgroundColor=0x606060
+ProgressBarForegroundColor=0xffffff
+TitleVerticalAlignment=.382
+
+[boot-up]
+UseFirmwareBackground=true
+UseEndAnimation=false
+
+[shutdown]
+UseFirmwareBackground=true
+UseEndAnimation=false
+
+[reboot]
+UseFirmwareBackground=true
+UseEndAnimation=false
+
+[updates]
+UseEndAnimation=false
+UseProgressBar=true
+ProgressBarShowPercentComplete=true
+SuppressMessages=true
+Title=Updating software
+SubTitle=Keep the computer powered on
+
+[system-upgrade]
+UseEndAnimation=false
+UseProgressBar=true
+ProgressBarShowPercentComplete=true
+SuppressMessages=true
+Title=Upgrading the system
+SubTitle=Keep the computer powered on
+
+[firmware-upgrade]
+UseEndAnimation=false
+UseProgressBar=true
+ProgressBarShowPercentComplete=true
+SuppressMessages=true
+Title=Updating firmware
+SubTitle=Keep the computer powered on
+
+[system-reset]
+UseEndAnimation=false
+UseProgressBar=true
+ProgressBarShowPercentComplete=true
+SuppressMessages=true
+Title=Resetting the system
+SubTitle=Keep the computer powered on
